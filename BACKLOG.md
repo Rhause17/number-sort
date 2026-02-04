@@ -29,3 +29,11 @@ Tüm commit'lerin kronolojik kaydı.
 - `TubeEditor.tsx`: `onAddPiece` destructure edilip kullanılmıyordu → `_onAddPiece` olarak rename edildi
 - Vercel production build başarılı oldu
 - Deploy: https://number-sort.vercel.app
+
+---
+
+## Commit #3 — `8c089b4` — Add BACKLOG.md and HISTORY.md for tracking, update CLAUDE.md
+
+- `BACKLOG.md` oluşturuldu: her commit sonrası kronolojik değişiklik kaydı
+- `HISTORY.md` oluşturuldu: context compaction sırasında konuşma hafızası kaydı
+- `CLAUDE.md` güncellendi: hafıza yönetimi kuralları ve güncel proje durumu eklendi
