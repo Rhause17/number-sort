@@ -1,0 +1,605 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "First Steps",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [2] }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Blocked Path",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [4, 2, 8] },
+        { "capacity": 4, "initialPieces": [2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chain Reaction",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [16, 8, 2] },
+        { "capacity": 3, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [2] }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Capacity Intro",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [16, 8, 2] },
+        { "capacity": 3, "initialPieces": [4, 2] }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Double Chain",
+      "difficulty": "Beginner",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [16, 8, 4] },
+        { "capacity": 4, "initialPieces": [16, 4, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tower Block",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [32, 8, 2] },
+        { "capacity": 4, "initialPieces": [2, 4, 2] },
+        { "capacity": 4, "initialPieces": [16, 4, 2] }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Three Way",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [8, 16, 2] },
+        { "capacity": 4, "initialPieces": [4, 2, 4] },
+        { "capacity": 4, "initialPieces": [2, 16, 8] },
+        { "capacity": 4, "initialPieces": [64, 2, 4] }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Narrow Buffer",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [8, 4, 2] },
+        { "capacity": 3, "initialPieces": [8, 4, 2] },
+        { "capacity": 3, "initialPieces": [32] },
+        { "capacity": 3, "initialPieces": [8, 64] }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Asymmetric",
+      "difficulty": "Easy",
+      "targetPieceCount": 2,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [16, 8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 32] },
+        { "capacity": 4, "initialPieces": [4, 16, 2] },
+        { "capacity": 2, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Buried Treasure",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [2, 4, 8] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Deep Dig",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [8, 2, 4] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Triple Lock",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 8, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tight Quarters",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [4, 16, 2] },
+        { "capacity": 3, "initialPieces": [8, 2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Scattered Seeds",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [8, 2, 4] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 3, "initialPieces": [4] }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Inverted Stack",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 4, 8, 16] },
+        { "capacity": 4, "initialPieces": [2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Narrow Escape",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [4, 8, 2] },
+        { "capacity": 3, "initialPieces": [8, 4, 2] },
+        { "capacity": 3, "initialPieces": [4] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Four Corners",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [2, 4, 8] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Deep Freeze",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 4, 8, 16] },
+        { "capacity": 4, "initialPieces": [2] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Cross Traffic",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "The Gauntlet",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 8, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Heavy Lifting",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 32, 8, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Locked Vault",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 8, 32, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Triple Threat",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 16, 8, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4, 2] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Cascade Chaos",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 2, 8, 16] },
+        { "capacity": 5, "initialPieces": [8, 16, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Maze Runner",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 8, 32, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Pressure Point",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [8, 4, 2, 32] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Deep Dive",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 4, 32, 8] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Bottleneck",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [4, 16, 2] },
+        { "capacity": 3, "initialPieces": [8, 4, 2] },
+        { "capacity": 3, "initialPieces": [8, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [2] }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Five Fingers",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 16, 4] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [8, 4] },
+        { "capacity": 3, "initialPieces": [2] }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Narrow Corridor",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [2, 32, 4] },
+        { "capacity": 3, "initialPieces": [8, 4] },
+        { "capacity": 3, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Tower Defense",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 2, 8, 32, 16] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [16, 8, 4, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Minefield",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 8, 4, 32], "row": "top" },
+        { "capacity": 4, "initialPieces": [16, 4, 8, 2], "row": "top" },
+        { "capacity": 4, "initialPieces": [4, 8, 2], "row": "top" },
+        { "capacity": 4, "initialPieces": [8, 4, 2], "row": "bottom" },
+        { "capacity": 4, "initialPieces": [16, 4, 2], "row": "bottom" },
+        { "capacity": 3, "initialPieces": [2], "row": "bottom" }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Deadlock",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [8, 4, 2, 32, 16] },
+        { "capacity": 4, "initialPieces": [4, 16, 8, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Chain Gang",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 4, "initialPieces": [2, 4, 16, 8], "row": "top" },
+        { "capacity": 4, "initialPieces": [8, 32, 4, 2], "row": "top" },
+        { "capacity": 4, "initialPieces": [4, 8, 2], "row": "top" },
+        { "capacity": 4, "initialPieces": [8, 4, 2], "row": "bottom" },
+        { "capacity": 4, "initialPieces": [8, 4, 2, 8], "row": "bottom" },
+        { "capacity": 3, "initialPieces": [2], "row": "bottom" }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Switchback",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 8, 2, 16, 32] },
+        { "capacity": 4, "initialPieces": [8, 4, 2, 16] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2, 8] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Iron Curtain",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 8, 64, 4, 16] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 2] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Fortress",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 2, 64, 8, 16] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4, 2] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Labyrinth",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [32, 2, 64] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 3, "initialPieces": [2] }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "The Abyss",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [2, 4, 64, 8, 16, 32] },
+        { "capacity": 4, "initialPieces": [2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Crucible",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 64, 2, 8, 32] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Chaos Theory",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 32, 4, 64, 8] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Six Deep",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [2, 64, 8, 4, 32] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Pressure Cooker",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 3, "initialPieces": [2, 64, 4] },
+        { "capacity": 3, "initialPieces": [8, 32, 2] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [2] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Gridlock",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [8, 2, 64, 4, 32] },
+        { "capacity": 4, "initialPieces": [4, 8, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "The Inferno",
+      "difficulty": "Expert",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 5, "initialPieces": [4, 8, 64, 2, 32] },
+        { "capacity": 4, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Master Class",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [2, 4, 128, 16, 32, 8] },
+        { "capacity": 5, "initialPieces": [8, 32, 4, 2, 16] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Endgame",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [4, 2, 8, 128, 32, 16] },
+        { "capacity": 5, "initialPieces": [8, 16, 4, 2, 32] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Trial by Fire",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [2, 128, 4, 32, 8, 16] },
+        { "capacity": 5, "initialPieces": [4, 8, 2, 16, 32] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Nightmare",
+      "difficulty": "Master",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [8, 4, 2, 32, 128, 16] },
+        { "capacity": 5, "initialPieces": [2, 16, 8, 4, 32] },
+        { "capacity": 4, "initialPieces": [4] },
+        { "capacity": 4, "initialPieces": [] }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Final Boss",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 1,
+      "tubes": [
+        { "capacity": 6, "initialPieces": [2, 8, 128, 4, 32] },
+        { "capacity": 5, "initialPieces": [4, 32, 2, 16, 8] },
+        { "capacity": 5, "initialPieces": [8, 4, 2] },
+        { "capacity": 4, "initialPieces": [4, 2] },
+        { "capacity": 3, "initialPieces": [] }
+      ]
+    }
+  ]
+}
