@@ -41,5 +41,14 @@ npm run build    # Production build
 npm run preview  # Preview production build
 ```
 
+## Hafıza Yönetimi (ÖNEMLİ)
+- **BACKLOG.md**: Her commit sonrası commit hash ve değişiklik detayları eklenir. Silme/üzerine yazma yapma, sadece append et.
+- **HISTORY.md**: Her context compaction sırasında son konuşma özetleri eklenir. Yeni session'da buradan oku ve hafızayı koru. Silme/üzerine yazma yapma, sadece append et.
+- Her commit'te BACKLOG.md güncelle, her compaction'da HISTORY.md güncelle.
+
 ## Mevcut Durum
-Prototip aşaması — tek level ile gameplay'i doğrulama.
+- 50 level tasarlandı ve deploy edildi
+- Level editörü çalışıyor (`/editor` rotası, dev server gerekli)
+- Vercel deploy: https://number-sort.vercel.app
+- GitHub: https://github.com/Rhause17/number-sort
+- Level'lar editörde test edilip düzenlenecek
