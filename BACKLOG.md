@@ -46,7 +46,7 @@ Tüm commit'lerin kronolojik kaydı.
 
 ---
 
-## Commit #5 — `PENDING` — Redesign levels 10-50, add difficulty analyzer
+## Commit #5 — `df8670f` — Redesign levels 10-50, add difficulty analyzer
 
 ### Level Redesign (levels.json):
 - Level 10-50 tamamen yeniden tasarlandı:
