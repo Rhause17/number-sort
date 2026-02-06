@@ -32,13 +32,24 @@ export function TubeEditor({
   onRemovePiece,
   toolPalette,
 }: TubeEditorProps) {
-  const topRowTubes = level.tubes
-    .map((tube, index) => ({ tube, index }))
-    .filter(({ tube }) => !tube.row || tube.row === 'top');
+  // Match Board.tsx auto-split logic: if no explicit row assignments and 6+ tubes, auto-split
+  const hasExplicitRows = level.tubes.some(t => t.row === 'bottom');
+  const allTubes = level.tubes.map((tube, index) => ({ tube, index }));
 
-  const bottomRowTubes = level.tubes
-    .map((tube, index) => ({ tube, index }))
-    .filter(({ tube }) => tube.row === 'bottom');
+  let topRowTubes: typeof allTubes;
+  let bottomRowTubes: typeof allTubes;
+
+  if (hasExplicitRows) {
+    topRowTubes = allTubes.filter(({ tube }) => !tube.row || tube.row === 'top');
+    bottomRowTubes = allTubes.filter(({ tube }) => tube.row === 'bottom');
+  } else if (level.tubes.length >= 6) {
+    const splitAt = Math.ceil(level.tubes.length / 2);
+    topRowTubes = allTubes.slice(0, splitAt);
+    bottomRowTubes = allTubes.slice(splitAt);
+  } else {
+    topRowTubes = allTubes;
+    bottomRowTubes = [];
+  }
 
   const handleTubeClick = (index: number) => {
     onSelectTube(index === selectedTubeIndex ? null : index);
@@ -168,7 +179,7 @@ export function TubeEditor({
 
   const renderRow = (tubes: { tube: TubeConfig; index: number }[], label: string) => (
     <div className="flex flex-col items-center">
-      <div className="text-xs text-slate-500 mb-2">{label}</div>
+      {label && <div className="text-xs text-slate-500 mb-2">{label}</div>}
       <div className="flex gap-4 justify-center flex-wrap items-end">
         {tubes.map(({ tube, index }) => renderTube(tube, index))}
       </div>
@@ -189,15 +200,10 @@ export function TubeEditor({
       </div>
 
       {/* Top row */}
-      {topRowTubes.length > 0 && renderRow(topRowTubes, 'Top Row')}
+      {topRowTubes.length > 0 && renderRow(topRowTubes, bottomRowTubes.length > 0 ? 'Top Row' : '')}
 
       {/* Bottom row */}
-      {bottomRowTubes.length > 0 && (
-        <>
-          <div className="border-t border-slate-700 my-2" />
-          {renderRow(bottomRowTubes, 'Bottom Row')}
-        </>
-      )}
+      {bottomRowTubes.length > 0 && renderRow(bottomRowTubes, 'Bottom Row')}
 
       {/* Instructions */}
       <div className="text-center text-xs text-slate-500">

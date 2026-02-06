@@ -121,11 +121,8 @@ function verifyAStarSolution(level, solutionPath) {
   }
 
   const finalPieces = countPieces(tubes);
-  if (finalPieces > level.targetPieceCount) {
-    return { valid: false, failedAtStep: -1, reason: `Final pieces ${finalPieces} > target ${level.targetPieceCount}` };
-  }
 
-  return { valid: true };
+  return { valid: true, finalPieces };
 }
 
 // --- Helpers ---
@@ -376,7 +373,8 @@ function main() {
         continue;
       }
 
-      // ACCEPTED
+      // ACCEPTED — set targetPieceCount to actual solver minimum
+      level.targetPieceCount = verification.finalPieces;
       level.name = generateName();
 
       // Map difficulty label based on actual group
@@ -398,7 +396,7 @@ function main() {
       const fill = (check.structural.fillRatio * 100).toFixed(0);
       const branch = check.branching.avgBranchingFactor.toFixed(2);
       const deadEnd = (check.branching.deadEndRatio * 100).toFixed(1);
-      console.log(`  Attempt ${attempts}/${maxAttempts} — ACCEPTED (${level.difficulty}, moves: ${check.solution.optimalMoves}, fill: ${fill}%, branch: ${branch}, deadEnd: ${deadEnd}%)`);
+      console.log(`  Attempt ${attempts}/${maxAttempts} — ACCEPTED (${level.difficulty}, moves: ${check.solution.optimalMoves}, fill: ${fill}%, branch: ${branch}, deadEnd: ${deadEnd}%, minPieces: ${level.targetPieceCount})`);
 
       accepted = true;
       generationLog.push({ id, status: 'accepted', attempts, moves: check.solution.optimalMoves, fill: check.structural.fillRatio });

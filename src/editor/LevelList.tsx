@@ -1,6 +1,6 @@
 // LevelList.tsx - Level list with drag reorder support
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import type { Level } from '../engine/types';
 import { validateLevel } from './validation';
 import { getDifficultyColor } from '../data/levels';
@@ -27,6 +27,11 @@ export function LevelList({
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
   const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
   const dragRef = useRef<number | null>(null);
+  const selectedItemRef = useCallback((node: HTMLDivElement | null) => {
+    if (node) {
+      node.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }, [selectedLevelId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleDragStart = (e: React.DragEvent, index: number) => {
     dragRef.current = index;
@@ -79,10 +84,12 @@ export function LevelList({
           const isSelected = level.id === selectedLevelId;
           const isDragged = index === draggedIndex;
           const isDragOver = index === dragOverIndex;
+          const diffColor = getDifficultyColor(level.difficulty);
 
           return (
             <div
               key={level.id}
+              ref={isSelected ? selectedItemRef : undefined}
               draggable
               onDragStart={(e) => handleDragStart(e, index)}
               onDragOver={(e) => handleDragOver(e, index)}
@@ -91,64 +98,47 @@ export function LevelList({
               onDragEnd={handleDragEnd}
               onClick={() => onSelectLevel(level.id)}
               className={`
-                p-3 border-b border-slate-800 cursor-pointer transition-all
+                px-2 py-1.5 border-b border-slate-800 cursor-pointer transition-all
                 ${isSelected ? 'bg-slate-700' : 'hover:bg-slate-800'}
                 ${isDragged ? 'opacity-50' : ''}
                 ${isDragOver ? 'border-t-2 border-t-blue-500' : ''}
               `}
             >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <span className="text-slate-500 text-xs cursor-grab">⋮⋮</span>
-                  <span className="text-slate-400 text-xs font-mono">#{level.id}</span>
-                  <span className="text-white text-sm truncate max-w-[120px]">{level.name}</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  {!validation.isValid && (
-                    <span className="text-red-500 text-xs" title={validation.errors.join(', ')}>!</span>
-                  )}
-                  {validation.warnings.length > 0 && validation.isValid && (
-                    <span className="text-yellow-500 text-xs" title={validation.warnings.join(', ')}>!</span>
-                  )}
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2 mt-1">
+              <div className="flex items-center gap-1.5">
+                <span className="text-slate-500 text-xs cursor-grab leading-none">⋮⋮</span>
+                <span className="text-slate-400 text-xs font-mono w-7 flex-shrink-0">#{level.id}</span>
                 <span
-                  className="text-xs px-1.5 py-0.5 rounded"
-                  style={{ backgroundColor: getDifficultyColor(level.difficulty), color: 'white' }}
-                >
-                  {level.difficulty}
-                </span>
-                <span className="text-slate-500 text-xs">
-                  {level.tubes.length} tubes
-                </span>
+                  className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ backgroundColor: diffColor }}
+                  title={level.difficulty}
+                />
+                <span className="text-white text-xs truncate flex-1">{level.name}</span>
+                <span className="text-slate-500 text-xs flex-shrink-0">{level.tubes.length}t</span>
+                {!validation.isValid && (
+                  <span className="text-red-500 text-xs flex-shrink-0" title={validation.errors.join(', ')}>!</span>
+                )}
+                {validation.warnings.length > 0 && validation.isValid && (
+                  <span className="text-yellow-500 text-xs flex-shrink-0" title={validation.warnings.join(', ')}>!</span>
+                )}
+                {isSelected && (
+                  <>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); onDuplicateLevel(level.id); }}
+                      className="px-1 text-xs text-slate-400 hover:text-white transition-colors flex-shrink-0"
+                      title="Duplicate"
+                    >
+                      +
+                    </button>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); if (confirm('Delete this level?')) onDeleteLevel(level.id); }}
+                      className="px-1 text-xs text-red-400 hover:text-red-300 transition-colors flex-shrink-0"
+                      title="Delete"
+                    >
+                      x
+                    </button>
+                  </>
+                )}
               </div>
-
-              {isSelected && (
-                <div className="flex gap-1 mt-2">
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onDuplicateLevel(level.id);
-                    }}
-                    className="px-2 py-0.5 text-xs bg-slate-600 hover:bg-slate-500 text-slate-300 rounded transition-colors"
-                  >
-                    Duplicate
-                  </button>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      if (confirm('Delete this level?')) {
-                        onDeleteLevel(level.id);
-                      }
-                    }}
-                    className="px-2 py-0.5 text-xs bg-red-900 hover:bg-red-800 text-red-300 rounded transition-colors"
-                  >
-                    Delete
-                  </button>
-                </div>
-              )}
             </div>
           );
         })}

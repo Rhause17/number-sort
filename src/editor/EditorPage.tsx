@@ -47,11 +47,24 @@ export function EditorPage() {
           saveLevels();
         }
       }
+      // Arrow key navigation between levels
+      if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        // Don't hijack arrows when typing in an input/textarea/select
+        const tag = (e.target as HTMLElement)?.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+        e.preventDefault();
+        const currentIndex = state.levels.findIndex(l => l.id === state.selectedLevelId);
+        if (currentIndex === -1) return;
+        const nextIndex = e.key === 'ArrowUp' ? currentIndex - 1 : currentIndex + 1;
+        if (nextIndex >= 0 && nextIndex < state.levels.length) {
+          dispatch({ type: 'SELECT_LEVEL', levelId: state.levels[nextIndex].id });
+        }
+      }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [state.isDirty]);
+  }, [state.isDirty, state.levels, state.selectedLevelId]);
 
   const fetchLevels = async () => {
     try {
@@ -106,7 +119,7 @@ export function EditorPage() {
 
   return (
     <div
-      className="min-h-screen flex flex-col"
+      className="h-screen flex flex-col overflow-hidden"
       style={{
         background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)',
       }}
@@ -156,7 +169,7 @@ export function EditorPage() {
       {/* Main content */}
       <div className="flex-1 flex overflow-hidden">
         {/* Level list sidebar */}
-        <div className="w-64 flex-shrink-0">
+        <div className="w-52 flex-shrink-0">
           <LevelList
             levels={state.levels}
             selectedLevelId={state.selectedLevelId}
