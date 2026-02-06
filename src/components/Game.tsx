@@ -153,6 +153,51 @@ export const Game = () => {
   // Ref to resolve flying animation promise
   const flyingResolveRef = useRef<(() => void) | null>(null);
 
+  // Board scale-to-fit for two-row levels
+  const boardContainerRef = useRef<HTMLDivElement>(null);
+  const [boardScale, setBoardScale] = useState(1);
+
+  useEffect(() => {
+    const calculateScale = () => {
+      const container = boardContainerRef.current;
+      if (!container) return;
+      const containerH = container.clientHeight;
+      if (containerH <= 0) return;
+
+      const tubeConfigs = state.level.tubes;
+      const hasExplicitRows = tubeConfigs.some(t => t.row === 'bottom');
+      const hasTwoRows = hasExplicitRows || tubeConfigs.length >= 6;
+
+      if (!hasTwoRows) {
+        setBoardScale(1);
+        return;
+      }
+
+      const slotH = GAME_CONSTANTS.PIECE_HEIGHT + GAME_CONSTANTS.PIECE_GAP;
+      const tubeH = (cap: number) => cap * slotH + GAME_CONSTANTS.TUBE_PADDING + 4;
+
+      let maxTop: number, maxBot: number;
+      if (hasExplicitRows) {
+        const topCaps = tubeConfigs.filter(t => !t.row || t.row === 'top').map(t => t.capacity);
+        const botCaps = tubeConfigs.filter(t => t.row === 'bottom').map(t => t.capacity);
+        maxTop = Math.max(...topCaps.map(tubeH));
+        maxBot = Math.max(...botCaps.map(tubeH));
+      } else {
+        const splitAt = Math.ceil(tubeConfigs.length / 2);
+        maxTop = Math.max(...tubeConfigs.slice(0, splitAt).map(t => tubeH(t.capacity)));
+        maxBot = Math.max(...tubeConfigs.slice(splitAt).map(t => tubeH(t.capacity)));
+      }
+
+      const boardPad = 24; // p-3 = 12*2
+      const boardH = maxTop + maxBot + GAME_CONSTANTS.ROW_GAP + boardPad;
+      setBoardScale(Math.min(1, containerH / boardH));
+    };
+
+    calculateScale();
+    window.addEventListener('resize', calculateScale);
+    return () => window.removeEventListener('resize', calculateScale);
+  }, [state.level]);
+
   // Show stuck popup when stuck
   useEffect(() => {
     if (state.isStuck && !state.isWon) {
@@ -476,7 +521,10 @@ export const Game = () => {
       />
 
       {/* Board container */}
-      <div className="flex-1 flex items-center justify-center min-h-0 w-full overflow-y-auto">
+      <div
+        ref={boardContainerRef}
+        className="flex-1 flex items-center justify-center min-h-0 w-full overflow-hidden"
+      >
         <AnimatePresence mode="wait">
           <motion.div
             key={boardKey}
@@ -484,6 +532,10 @@ export const Game = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
+            style={boardScale < 1 ? {
+              transform: `scale(${boardScale})`,
+              transformOrigin: 'center center',
+            } : undefined}
           >
             <Board
               tubes={state.tubes}
