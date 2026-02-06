@@ -1864,6 +1864,2310 @@
           "initialPieces": []
         }
       ]
+    },
+    {
+      "id": 51,
+      "name": "Molten Nexus",
+      "difficulty": "Medium",
+      "targetPieceCount": 1,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            16,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            8,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Iron Throne",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            16,
+            4,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Steel Den",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": []
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Silent Path",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Sunken Abyss",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Shattered Passage",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Shattered Citadel",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Glass Wall",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            8,
+            2,
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Shadow Citadel",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            4,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            2,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Gilded Throne",
+      "difficulty": "Medium",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            16,
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Cosmic Gate",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            2,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Shadow Throne",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            32,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            32,
+            2,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Ancient Pinnacle",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            32,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            32,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Dark Peak",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            16,
+            4,
+            16,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Rapid Arena",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            2,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            16,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Burning Abyss",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Savage Crypt",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            32,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            32,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Silver Passage",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            8,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            32,
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            32,
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Obsidian Arena",
+      "difficulty": "Hard",
+      "targetPieceCount": 1,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            4,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            2,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": []
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            32,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Wicked Furnace",
+      "difficulty": "Hard",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Mystic Haven",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            4,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Blazing Abyss",
+      "difficulty": "Expert",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            16,
+            32,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            8,
+            32,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Mystic Labyrinth",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            32,
+            16,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            32,
+            2,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            2,
+            8,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Crystal Throne",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            16,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Iron Rift",
+      "difficulty": "Expert",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            8,
+            16,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            16,
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Phantom Pit",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            32,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            16,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            16,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Hollow Spire",
+      "difficulty": "Expert",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            2,
+            8,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Thorn Den",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            8,
+            32,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            8,
+            2,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": []
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            16,
+            32,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Obsidian Rift",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            4,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            16,
+            8,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            32,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            4,
+            16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Silver Core",
+      "difficulty": "Expert",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            32,
+            8,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            16,
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            8,
+            4,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Shifting Vault",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 3,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            4,
+            2,
+            4,
+            2,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            2,
+            4,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            8,
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Crystal Hollow",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            32,
+            2,
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            2,
+            8,
+            4,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            8,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            8,
+            2
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            2,
+            32,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Crystal Throne",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            32,
+            16,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            4,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            4,
+            8,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            2,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            32,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Broken Rift",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            32,
+            8,
+            32,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            32,
+            16,
+            32,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            16,
+            8,
+            32
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            8,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Steel Maze",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 2,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            16,
+            8,
+            32,
+            4,
+            8,
+            16
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            32,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            16
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Golden Cavern",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            16,
+            32,
+            16
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            32,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            32,
+            8,
+            16,
+            8,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            32,
+            2,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            2,
+            16,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            2,
+            8,
+            32,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Hollow Path",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            32,
+            4,
+            8,
+            4,
+            8
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            32,
+            4,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            8,
+            32,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 3,
+          "initialPieces": [
+            4,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Glass Chamber",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            16,
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            8,
+            4,
+            16,
+            4,
+            2
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            32,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            8,
+            2,
+            16,
+            2,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            32,
+            4,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Steel Ridge",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            32,
+            8,
+            16,
+            8
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            4,
+            8,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            4,
+            32,
+            2,
+            32,
+            2
+          ]
+        },
+        {
+          "capacity": 4,
+          "initialPieces": [
+            8,
+            32,
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Gilded Pinnacle",
+      "difficulty": "Grandmaster",
+      "targetPieceCount": 4,
+      "tubes": [
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            2,
+            8,
+            32,
+            4
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            2,
+            4,
+            8,
+            16,
+            2
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            4,
+            32,
+            2,
+            8,
+            2,
+            16
+          ]
+        },
+        {
+          "capacity": 5,
+          "initialPieces": [
+            16,
+            32
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            16,
+            4,
+            2,
+            4,
+            16,
+            4
+          ]
+        },
+        {
+          "capacity": 6,
+          "initialPieces": [
+            2,
+            8,
+            16,
+            8
+          ]
+        }
+      ]
     }
   ]
 }
