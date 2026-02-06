@@ -444,13 +444,8 @@ export const Game = () => {
 
   const isLastLevel = isTestMode || currentLevelIndex === TOTAL_LEVELS - 1;
 
-  // Calculate min board height for consistent positioning (based on 2-row max case)
-  // Max tube height: capacity 10 * (36 + 4) + 20 = 420px
-  // Two rows + gap: 420 + 420 + 24 = 864px (but we use a reasonable estimate)
-  const minBoardHeight = 500; // Enough for 2-row layout with typical tubes
-
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-full py-6 px-4">
+    <div className="flex flex-col items-center justify-center h-[100dvh] w-full py-4 px-4 overflow-hidden">
       {/* Test mode indicator */}
       {isTestMode && (
         <div className="fixed top-4 left-4 bg-yellow-600 text-white px-3 py-1 rounded text-sm font-medium z-50">
@@ -471,11 +466,8 @@ export const Game = () => {
         onOpenLevelSelect={isTestMode ? undefined : handleOpenLevelSelect}
       />
 
-      {/* Board container with fixed min height for consistent HUD position */}
-      <div
-        className="flex items-center justify-center"
-        style={{ minHeight: minBoardHeight }}
-      >
+      {/* Board container */}
+      <div className="flex-1 flex items-center justify-center">
         <AnimatePresence mode="wait">
           <motion.div
             key={boardKey}

@@ -128,7 +128,7 @@ export const Board = ({
 
   return (
     <div
-      className="relative rounded-2xl p-4 sm:p-6 w-full"
+      className="relative rounded-2xl p-3 sm:p-6 w-full"
       style={{
         maxWidth: GAME_CONSTANTS.BOARD_MAX_WIDTH,
         background: 'linear-gradient(145deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 0.7) 100%)',
